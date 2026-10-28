@@ -13,7 +13,7 @@ const NEWS = [
   { date: "2025", text: "Gave the <b>CIKM'25</b> tutorial on continual recommender systems." },
 ];
 
-const TAGS = ["Recommendation", "LLM", "Personalization", "Continual Learning", "Post-training", "Agents", "Benchmark", "Retrieval", "Trustworthy", "Graph"];
+const TAGS = ["Recommendation", "LLM", "Continual Learning", "Post-training", "Personalization", "Agents & Benchmarks", "Trustworthy", "Graph"];
 
 const PUBS = [
   {
@@ -24,17 +24,17 @@ const PUBS = [
   {
     title: "LODGE: A Conversational Travel Agent Benchmark with Grounded Goals and Controllable Difficulty",
     authors: "Wendy Wei*, Hyunsik Yoo*, Selen Uguroglu, Chun How Tan, Hanghang Tong, Yashar Mehdad, Gokhan Tur, Huiji Gao, Stephanie Moyerman",
-    venue: "Under review", tags: ["LLM", "Agents", "Benchmark"], links: {},
+    venue: "Under review", tags: ["LLM", "Agents & Benchmarks"], links: {},
   },
   {
     title: "Rethinking Cold-Start Item Recommendation",
     authors: "Yuanchen Bei, Hyunsik Yoo, Tianxin Wei, Xuying Ning, Dongqi Fu, Yinglong Xia, Hong Li, Jingrui He, Hanghang Tong",
-    venue: "Under review", tags: ["Recommendation"], links: {},
+    venue: "Under review", tags: ["Recommendation", "Agents & Benchmarks"], links: {},
   },
   {
     title: "ContextRank: Enhancing Scientific Document Retrieval with Context-Enriched Relations",
     authors: "Wonbin Kweon, Xueqiang Xu, Runchu Tian, Chih-Hsuan Wei, ZhiZheng Wang, Hyunsik Yoo, Gyuseok Lee, SeongKu Kang, Zhiyong Lu, Jiawei Han, Hwanjo Yu",
-    venue: "Under review", tags: ["Retrieval"], links: {},
+    venue: "Under review", tags: [], links: {},
   },
   {
     title: "PerCept: Personalization in Concept Space for Multimodal Recommendation",
@@ -44,7 +44,7 @@ const PUBS = [
   {
     title: "SCOUT: Coupling-Free Bounds for Trillion-Scale Top-k Retrieval in Sparse Tensor Factorization",
     authors: "Jun-Gi Jang, Hyunsik Yoo, Ruizhong Qiu, Yinglong Xia, Hanghang Tong",
-    venue: "SIGMOD 2027", tags: ["Retrieval"], links: {},
+    venue: "SIGMOD 2027", tags: [], links: {},
   },
   {
     title: "TRACER: Balancing Stability-Plasticity-Cognitivity Trilemma for LLM Enhanced Continual Recommendation",
