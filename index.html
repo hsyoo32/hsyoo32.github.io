@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hyunsik Yoo</title>
+  <meta name="description" content="Hyunsik Yoo — Ph.D. student in Computer Science at UIUC. Recommender systems, personalized LLMs, agentic systems, continual learning.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <nav class="nav">
+      <a class="brand" href="#about">Hyunsik Yoo</a>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#news">News</a>
+        <a href="#publications">Publications</a>
+        <a href="#tutorials">Tutorials</a>
+        <a href="#experience">Experience</a>
+        <a href="#education">Education</a>
+        <a href="#honors">Honors</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section id="about" class="hero">
+      <img class="avatar" src="assets/profile.jpg" alt="Hyunsik Yoo" onerror="this.classList.add('avatar-missing')">
+      <div class="hero-text">
+        <h1>Hyunsik Yoo</h1>
+        <p class="role">Ph.D. student in Computer Science, University of Illinois Urbana-Champaign</p>
+        <p>
+          I am advised by <a href="http://tonghanghang.org/">Prof. Hanghang Tong</a> and a member of the
+          <a href="https://www.idea-isail.com/">iDEA-iSAIL joint lab</a>. I received my B.S. and M.S. in Computer Science
+          from Hanyang University, advised by <a href="https://bigdas.hanyang.ac.kr/sang-wook/">Prof. Sang-Wook Kim</a>.
+        </p>
+        <p>
+          My research is in data mining and machine learning, with a focus on <b>personalized intelligence systems</b> —
+          recommender systems, personalized LLMs, and conversational and agentic systems — that are adaptive, trustworthy,
+          and responsive to diverse users.
+        </p>
+        <div class="chips">
+          <span>Recommender Systems</span><span>Personalized LLMs</span><span>Agentic Systems</span><span>Continual Learning</span>
+        </div>
+        <div class="links">
+          <a class="btn" href="assets/HyunsikYoo_CV.pdf">CV</a>
+          <a class="btn" href="mailto:hy40@illinois.edu">Email</a>
+          <a class="btn" href="https://scholar.google.com/citations?user=8aPSNF0AAAAJ&hl=en">Scholar</a>
+          <a class="btn" href="https://dblp.org/pid/202/6001.html">DBLP</a>
+          <a class="btn" href="https://github.com/hsyoo32">GitHub</a>
+          <a class="btn" href="https://www.linkedin.com/in/hyunsik-yoo-534251194/">LinkedIn</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="news">
+      <h2>News</h2>
+      <ul class="news" id="news-list"></ul>
+    </section>
+
+    <section id="publications">
+      <h2>Publications</h2>
+      <p class="muted">* equal contribution. Full list on <a href="https://scholar.google.com/citations?user=8aPSNF0AAAAJ&hl=en">Google Scholar</a>.</p>
+      <div class="filters" id="pub-filters"></div>
+      <div id="pub-list"></div>
+    </section>
+
+    <section id="tutorials">
+      <h2>Tutorials</h2>
+      <div id="tut-list"></div>
+    </section>
+
+    <section id="experience">
+      <h2>Experience</h2>
+      <div id="exp-list"></div>
+    </section>
+
+    <section id="education">
+      <h2>Education</h2>
+      <div id="edu-list"></div>
+    </section>
+
+    <section id="honors">
+      <h2>Honors &amp; Service</h2>
+      <ul class="plain" id="honor-list"></ul>
+      <h3>Teaching</h3>
+      <ul class="plain">
+        <li>Teaching Assistant, UIUC CS412 Introduction to Data Mining <span class="date">Fall 2023, Fall 2025</span></li>
+        <li>Teaching Assistant, Hanyang University CUL1138 Artificial Intelligence and Machine Learning <span class="date">Spring 2021</span></li>
+        <li>Volunteer Python tutor for high school students, Hanyang University <span class="date">Spring 2019</span></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="footer">© Hyunsik Yoo · Last updated <span id="updated"></span></footer>
+
+  <script src="data.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
