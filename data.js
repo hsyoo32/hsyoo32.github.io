@@ -13,23 +13,23 @@ const NEWS = [
   { date: "2025", text: "Gave the <b>CIKM'25</b> tutorial on continual recommender systems." },
 ];
 
-const TAGS = ["Recommendation", "LLM", "Continual Learning", "Post-training", "Personalization", "Agents & Benchmarks", "Trustworthy", "Graph"];
+const TAGS = ["Recommendation", "LLM", "Personalized LLMs", "Continual Learning", "Post-training", "Agents", "Benchmark", "Trustworthy", "Graph"];
 
 const PUBS = [
   {
     title: "Instruction-Level Personalization for Prompt-Based Preference Prediction",
     authors: "Hyunsik Yoo, Yuanchen Bei, Ting-Wei Li, Ruizhong Qiu, Xuying Ning, Wonbin Kweon, SeongKu Kang, Hanghang Tong",
-    venue: "Under review", tags: ["LLM", "Personalization"], links: {},
+    venue: "Under review", tags: ["LLM", "Personalized LLMs"], links: {},
   },
   {
     title: "LODGE: A Conversational Travel Agent Benchmark with Grounded Goals and Controllable Difficulty",
     authors: "Wendy Wei*, Hyunsik Yoo*, Selen Uguroglu, Chun How Tan, Hanghang Tong, Yashar Mehdad, Gokhan Tur, Huiji Gao, Stephanie Moyerman",
-    venue: "Under review", tags: ["LLM", "Agents & Benchmarks"], links: {},
+    venue: "Under review", tags: ["LLM", "Agents", "Benchmark"], links: {},
   },
   {
     title: "Rethinking Cold-Start Item Recommendation",
     authors: "Yuanchen Bei, Hyunsik Yoo, Tianxin Wei, Xuying Ning, Dongqi Fu, Yinglong Xia, Hong Li, Jingrui He, Hanghang Tong",
-    venue: "Under review", tags: ["Recommendation", "Agents & Benchmarks"], links: {},
+    venue: "Under review", tags: ["Recommendation", "Benchmark"], links: {},
   },
   {
     title: "ContextRank: Enhancing Scientific Document Retrieval with Context-Enriched Relations",
@@ -39,7 +39,7 @@ const PUBS = [
   {
     title: "PerCept: Personalization in Concept Space for Multimodal Recommendation",
     authors: "Donghyuk Kang, Seunghan Lee, Dojun Hwang, Hyunsik Yoo, SeongKu Kang",
-    venue: "Under review", tags: ["Recommendation", "Personalization"], links: {},
+    venue: "Under review", tags: ["Recommendation"], links: {},
   },
   {
     title: "SCOUT: Coupling-Free Bounds for Trillion-Scale Top-k Retrieval in Sparse Tensor Factorization",
