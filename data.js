@@ -55,7 +55,7 @@ const PUBS = [
     title: "Continual Low-Rank Adapters for LLM-based Generative Recommender Systems",
     authors: "Hyunsik Yoo, Ting-Wei Li, SeongKu Kang, Zhining Liu, Charlie Xu, Qilin Qi, Hanghang Tong",
     venue: "ICLR 2026", tags: ["Recommendation", "LLM", "Continual Learning", "Post-training"],
-    links: { PDF: "https://openreview.net/pdf?id=DBCNTM7mot", arXiv: "https://arxiv.org/abs/2510.25093", Code: "https://github.com/hsyoo32/peso" }, thumb: "clora.png",
+    links: { PDF: "https://openreview.net/pdf?id=DBCNTM7mot", arXiv: "https://arxiv.org/abs/2510.25093", Code: "https://github.com/hsyoo32/peso" },
   },
   {
     title: "Mixture of Sequence: Theme-Aware Mixture-of-Experts for Long-Sequence Recommendation",
