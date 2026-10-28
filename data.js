@@ -143,13 +143,13 @@ const EXPERIENCE = [
   { org: "Amazon", logo: "amazon.png", role: "Applied Scientist Intern", place: "Seattle, WA", date: "Summers 2024 – 2025, Fall 2026",
     projects: [
       { text: "Language-steerable LLM-based generative retrieval", date: "Sep – Dec 2026" },
-      { text: "Continual learning of generative recommender systems. Mentors: Qilin Qi, Charlie Xu", date: "May – Aug 2025" },
-      { text: "Leveraging temporal context for consumer propensity prediction. Mentors: Zhen Wen, Charlie Xu", date: "May – Aug 2024" },
+      { text: "Continual learning of generative recommender systems", date: "May – Aug 2025" },
+      { text: "Leveraging temporal context for consumer propensity prediction", date: "May – Aug 2024" },
     ] },
   { org: "Airbnb", logo: "airbnb.png", role: "Machine Learning Engineer Intern", place: "San Francisco, CA (remote)", date: "Jun 2026 – Aug 2026",
-    detail: "Evaluation framework for conversational travel agents. Mentors: Huiji Gao, Gokhan Tur, Wendy Wei." },
+    detail: "Evaluation framework for conversational travel agents." },
   { org: "ECIT, Queen's University Belfast", logo: "qub.png", role: "Research Intern", place: "Belfast, UK", date: "Sep 2018 – Dec 2018",
-    detail: "Random forest for big data. Mentor: BooJoong Kang." },
+    detail: "Random forest for big data." },
 ];
 
 const EDUCATION = [
