@@ -8,7 +8,7 @@ const NEWS = [
   { date: "Sep 2026", text: "Started an Applied Scientist internship at <b>Amazon</b> (Seattle), working on language-steerable LLM-based generative retrieval." },
   { date: "Jun 2026", text: "Started a Machine Learning Engineer internship at <b>Airbnb</b>, building an evaluation framework for conversational travel agents." },
   { date: "2026", text: "Papers accepted at <b>SIGMOD'27</b>, <b>CIKM'26</b> (×2), and <b>COLM'26</b>." },
-  { date: "2026", text: "Tutorials at <b>IEEE BigData'26</b> (cold-start recommendation) and <b>DASFAA'26</b> (continual recommender systems)." },
+  { date: "2026", text: "Tutorial on cold-start recommendation at <b>IEEE BigData'26</b>." },
   { date: "2026", text: "Continual low-rank adapters for LLM-based generative recommendation accepted at <b>ICLR'26</b>." },
   { date: "2025", text: "Gave the <b>CIKM'25</b> tutorial on continual recommender systems." },
 ];
@@ -116,12 +116,6 @@ const TUTORIALS = [
     title: "Cold-start Recommendation",
     authors: "Yuanchen Bei, Weizhi Zhang, Hyunsik Yoo, Dongqi Fu, Yinglong Xia, Hong Li, Philip S. Yu, Hanghang Tong",
     venue: "IEEE BigData 2026", links: {},
-  },
-  {
-    title: "Continual Recommender Systems: A Focus on LLMs and Evolving Trends",
-    authors: "Seunghan Lee, Seunghyun Baek, Dojun Hwang, Hyunsik Yoo, SeongKu Kang",
-    venue: "DASFAA 2026",
-    links: { Webpage: "https://idea.korea.ac.kr/research/dasfaa26-tutorial-continual-recommender-systems" },
   },
   {
     title: "Continual Recommender Systems",
