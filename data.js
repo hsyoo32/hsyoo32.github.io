@@ -115,11 +115,11 @@ const TUTORIALS = [
     links: {
       Paper: "https://arxiv.org/pdf/2507.03861",
       Webpage: "https://idea.korea.ac.kr/research/tutorial-continual-recommender-systems",
-      "Slides 1": "https://drive.google.com/file/d/1bzkX5wuiQe5hh5RmBdHKKEbRFbD0bjvV/view?usp=sharing",
-      "2": "https://drive.google.com/file/d/1ZanQoNJDeQIfN3tttirfg0908puaKNH1/view?usp=sharing",
-      "3": "https://drive.google.com/file/d/1uNM8mMdtG4rM3ZK0TeAAzWHNr3VT21z5/view?usp=sharing",
-      "4": "https://drive.google.com/file/d/1D8CMzNuIylsK_-13PE3tsNWw-DryCIAv/view?usp=sharing",
-      "5": "https://drive.google.com/file/d/1Ki2arohAZ9JZUBLa1Hf5_W5vROW0_bER/view?usp=sharing",
+      "Slide 1": "https://drive.google.com/file/d/1bzkX5wuiQe5hh5RmBdHKKEbRFbD0bjvV/view?usp=sharing",
+      "Slide 2": "https://drive.google.com/file/d/1ZanQoNJDeQIfN3tttirfg0908puaKNH1/view?usp=sharing",
+      "Slide 3": "https://drive.google.com/file/d/1uNM8mMdtG4rM3ZK0TeAAzWHNr3VT21z5/view?usp=sharing",
+      "Slide 4": "https://drive.google.com/file/d/1D8CMzNuIylsK_-13PE3tsNWw-DryCIAv/view?usp=sharing",
+      "Slide 5": "https://drive.google.com/file/d/1Ki2arohAZ9JZUBLa1Hf5_W5vROW0_bER/view?usp=sharing",
     },
   },
 ];
