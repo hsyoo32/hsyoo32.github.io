@@ -13,13 +13,38 @@ const NEWS = [
   { date: "2025", text: "Gave the <b>CIKM'25</b> tutorial on continual recommender systems." },
 ];
 
-const TAGS = ["Continual Learning", "LLM", "Recommendation", "Trustworthy", "Graph", "Scalability"];
+const TAGS = ["Recommendation", "LLM", "Personalization", "Continual Learning", "Post-training", "Agents", "Benchmark", "Retrieval", "Trustworthy", "Graph"];
 
 const PUBS = [
   {
+    title: "Instruction-Level Personalization for Prompt-Based Preference Prediction",
+    authors: "Hyunsik Yoo, Yuanchen Bei, Ting-Wei Li, Ruizhong Qiu, Xuying Ning, Wonbin Kweon, SeongKu Kang, Hanghang Tong",
+    venue: "Under review", tags: ["LLM", "Personalization"], links: {},
+  },
+  {
+    title: "LODGE: A Conversational Travel Agent Benchmark with Grounded Goals and Controllable Difficulty",
+    authors: "Wendy Wei*, Hyunsik Yoo*, Selen Uguroglu, Chun How Tan, Hanghang Tong, Yashar Mehdad, Gokhan Tur, Huiji Gao, Stephanie Moyerman",
+    venue: "Under review", tags: ["LLM", "Agents", "Benchmark"], links: {},
+  },
+  {
+    title: "Rethinking Cold-Start Item Recommendation",
+    authors: "Yuanchen Bei, Hyunsik Yoo, Tianxin Wei, Xuying Ning, Dongqi Fu, Yinglong Xia, Hong Li, Jingrui He, Hanghang Tong",
+    venue: "Under review", tags: ["Recommendation"], links: {},
+  },
+  {
+    title: "ContextRank: Enhancing Scientific Document Retrieval with Context-Enriched Relations",
+    authors: "Wonbin Kweon, Xueqiang Xu, Runchu Tian, Chih-Hsuan Wei, ZhiZheng Wang, Hyunsik Yoo, Gyuseok Lee, SeongKu Kang, Zhiyong Lu, Jiawei Han, Hwanjo Yu",
+    venue: "Under review", tags: ["Retrieval"], links: {},
+  },
+  {
+    title: "PerCept: Personalization in Concept Space for Multimodal Recommendation",
+    authors: "Donghyuk Kang, Seunghan Lee, Dojun Hwang, Hyunsik Yoo, SeongKu Kang",
+    venue: "Under review", tags: ["Recommendation", "Personalization"], links: {},
+  },
+  {
     title: "SCOUT: Coupling-Free Bounds for Trillion-Scale Top-k Retrieval in Sparse Tensor Factorization",
     authors: "Jun-Gi Jang, Hyunsik Yoo, Ruizhong Qiu, Yinglong Xia, Hanghang Tong",
-    venue: "SIGMOD 2027", tags: ["Scalability"], links: {},
+    venue: "SIGMOD 2027", tags: ["Retrieval"], links: {},
   },
   {
     title: "TRACER: Balancing Stability-Plasticity-Cognitivity Trilemma for LLM Enhanced Continual Recommendation",
@@ -34,12 +59,12 @@ const PUBS = [
   {
     title: "Reinforcement Routing for Mixtures of LoRAs in Parameter-Efficient LLM Finetuning",
     authors: "Ruizhong Qiu, Hanqing Zeng, Yinglong Xia, Yiwen Meng, Ren Chen, Jiarui Feng, Dongqi Fu, Qifan Wang, Jiayi Liu, Jun Xiao, Xiangjun Fan, Benyu Zhang, Hong Li, Zhining Liu, Hyunsik Yoo, Zhichen Zeng, Tianxin Wei, Hanghang Tong",
-    venue: "COLM 2026", tags: ["LLM"], links: {},
+    venue: "COLM 2026", tags: ["LLM", "Post-training"], links: {},
   },
   {
     title: "Continual Low-Rank Adapters for LLM-based Generative Recommender Systems",
     authors: "Hyunsik Yoo, Ting-Wei Li, SeongKu Kang, Zhining Liu, Charlie Xu, Qilin Qi, Hanghang Tong",
-    venue: "ICLR 2026", tags: ["Continual Learning", "LLM", "Recommendation"],
+    venue: "ICLR 2026", tags: ["Recommendation", "LLM", "Continual Learning", "Post-training"],
     links: { PDF: "https://arxiv.org/pdf/2510.25093" }, thumb: "clora.png",
   },
   {
@@ -73,7 +98,7 @@ const PUBS = [
   {
     title: "Ensuring User-side Fairness in Dynamic Recommender Systems",
     authors: "Hyunsik Yoo, Zhichen Zeng, Jian Kang, Ruizhong Qiu, David Zhou, Zhining Liu, Fei Wang, Charlie Xu, Eunice Chan, Hanghang Tong",
-    venue: "WWW 2024", badge: "Oral", tags: ["Trustworthy", "Continual Learning", "Recommendation"],
+    venue: "WWW 2024", badge: "Oral", tags: ["Recommendation", "Trustworthy", "Continual Learning"],
     links: {
       PDF: "https://dl.acm.org/doi/abs/10.1145/3589334.3645536", arXiv: "https://arxiv.org/pdf/2308.15651",
       Code: "https://github.com/hsyoo32/fade", Talk: "https://www.youtube.com/watch?v=VrYgCWCcj9o",

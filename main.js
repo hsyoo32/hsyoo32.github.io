@@ -14,7 +14,7 @@ function entryHtml(p) {
   const thumb = p.thumb
     ? `<a class="thumb" href="${Object.values(p.links)[0] || "#"}"><img src="assets/thumbs/${p.thumb}" alt="" loading="lazy" onerror="this.parentNode.remove()"></a>`
     : "";
-  const badge = p.badge ? `<span class="badge">${p.venue} ${p.badge}</span>` : "";
+  const badge = p.badge ? `<span class="badge">${p.badge}</span>` : "";
   const tags = (p.tags || []).map((t) => `<span class="topic">${t}</span>`).join("");
   return `
     <article class="pub ${p.thumb ? "" : "no-thumb"}" data-tags="${(p.tags || []).join("|")}">
@@ -22,7 +22,7 @@ function entryHtml(p) {
       <div class="pub-body">
         <div class="pub-title">${p.title}</div>
         <div class="pub-authors">${authorsHtml(p.authors)}</div>
-        <div class="pub-venue"><span class="venue">${p.venue}</span>${badge}</div>
+        <div class="pub-venue"><span class="venue${p.venue === "Under review" ? " pending" : ""}">${p.venue}</span>${badge}</div>
         <div class="pub-links">${linksHtml(p.links)}${tags}</div>
       </div>
     </article>`;
