@@ -28,10 +28,23 @@ function entryHtml(p) {
     </article>`;
 }
 
+const PUBLISHED_LIMIT = 10;
+let showAll = false;
+
 function renderPubs(filter) {
-  $("pub-list").innerHTML = PUBS.filter((p) => filter === "All" || p.tags.includes(filter))
-    .map(entryHtml)
-    .join("");
+  const match = (p) => filter === "All" || p.tags.includes(filter);
+  const review = PUBS.filter((p) => p.venue === "Under review" && match(p));
+  const published = PUBS.filter((p) => p.venue !== "Under review" && match(p));
+  const limit = filter === "All" && !showAll ? PUBLISHED_LIMIT : published.length;
+  const group = (title, list) => (list.length ? `<h3 class="pub-group">${title}</h3>${list.map(entryHtml).join("")}` : "");
+  $("pub-list").innerHTML =
+    group("Under Review", review) +
+    group("Published", published.slice(0, limit)) +
+    (published.length > limit
+      ? `<button type="button" class="show-all" id="show-all">Show all ${published.length} published papers</button>`
+      : "");
+  const btn = $("show-all");
+  if (btn) btn.addEventListener("click", () => { showAll = true; renderPubs(filter); });
   document.querySelectorAll("#pub-filters button").forEach((b) => {
     b.classList.toggle("active", b.textContent === filter);
   });
