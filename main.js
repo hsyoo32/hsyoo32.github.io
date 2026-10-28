@@ -65,6 +65,20 @@ function rowHtml(e) {
 }
 
 $("news-list").innerHTML = NEWS.map((n) => `<li><span class="date">${n.date}</span><span>${n.text}</span></li>`).join("");
+
+// News scrolls only after the box is clicked, so page scrolling never gets trapped inside it.
+const newsBox = $("news-box");
+const newsWrap = $("news-wrap");
+const updateNewsFade = () => {
+  const more = newsBox.scrollHeight - newsBox.scrollTop - newsBox.clientHeight > 4;
+  newsWrap.classList.toggle("more", more);
+};
+newsBox.addEventListener("click", () => newsWrap.classList.add("active"));
+newsBox.addEventListener("scroll", updateNewsFade);
+document.addEventListener("click", (ev) => {
+  if (!newsWrap.contains(ev.target)) newsWrap.classList.remove("active");
+});
+updateNewsFade();
 $("pub-filters").innerHTML = ["All", ...TAGS].map((t) => `<button type="button">${t}</button>`).join("");
 $("pub-filters").addEventListener("click", (ev) => {
   if (ev.target.tagName === "BUTTON") renderPubs(ev.target.textContent);
