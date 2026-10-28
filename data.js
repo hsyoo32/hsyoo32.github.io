@@ -13,7 +13,7 @@ const NEWS = [
   { date: "2025", text: "Gave the <b>CIKM'25</b> tutorial on continual recommender systems." },
 ];
 
-const TAGS = ["Recommendation", "LLM", "Personalized LLMs", "Continual Learning", "Post-training", "Agents", "Benchmark", "Trustworthy", "Graph"];
+const TAGS = ["Recommendation", "LLM", "Personalized LLMs", "Continual Learning", "Post-training", "Agents", "Benchmark", "Retrieval", "Trustworthy", "Graph"];
 
 const PUBS = [
   {
@@ -34,7 +34,7 @@ const PUBS = [
   {
     title: "ContextRank: Enhancing Scientific Document Retrieval with Context-Enriched Relations",
     authors: "Wonbin Kweon, Xueqiang Xu, Runchu Tian, Chih-Hsuan Wei, ZhiZheng Wang, Hyunsik Yoo, Gyuseok Lee, SeongKu Kang, Zhiyong Lu, Jiawei Han, Hwanjo Yu",
-    venue: "Under review", tags: [], links: {},
+    venue: "Under review", tags: ["Retrieval"], links: {},
   },
   {
     title: "PerCept: Personalization in Concept Space for Multimodal Recommendation",
@@ -44,7 +44,7 @@ const PUBS = [
   {
     title: "SCOUT: Coupling-Free Bounds for Trillion-Scale Top-k Retrieval in Sparse Tensor Factorization",
     authors: "Jun-Gi Jang, Hyunsik Yoo, Ruizhong Qiu, Yinglong Xia, Hanghang Tong",
-    venue: "SIGMOD 2027", tags: [], links: {},
+    venue: "SIGMOD 2027", tags: ["Retrieval"], links: {},
   },
   {
     title: "TRACER: Balancing Stability-Plasticity-Cognitivity Trilemma for LLM Enhanced Continual Recommendation",
