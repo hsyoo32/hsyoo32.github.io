@@ -133,3 +133,9 @@ h3 { font-size: 16px; margin: 20px 0 8px; }
 }
 .projects { margin: 2px 0 0; padding-left: 18px; font-size: 14.5px; }
 .projects .date { margin-left: 6px; }
+.row-main { flex: 1; min-width: 0; }
+.logo { width: 44px; height: 44px; object-fit: contain; flex-shrink: 0; margin-top: 3px; }
+.projects { list-style: none; padding-left: 0; }
+.projects li { display: flex; gap: 8px; }
+.projects li::before { content: "•"; color: var(--muted); }
+.projects li > .muted { flex: 1; }

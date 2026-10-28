@@ -40,9 +40,10 @@ function renderPubs(filter) {
 function rowHtml(e) {
   return `
     <div class="row">
+      ${e.logo ? `<img class="logo" src="assets/logos/${e.logo}" alt="">` : ""}
       <div class="row-main">
         <div class="row-org">${e.org}${e.place ? `<span class="muted">, ${e.place}</span>` : ""}</div>
-        <div>${e.role}</div>
+        ${e.role ? `<div>${e.role}</div>` : ""}
         ${e.detail ? `<div class="muted">${e.detail}</div>` : ""}
         ${e.projects ? `<ul class="projects">${e.projects.map((p) => `<li><span class="muted">${p.text}</span> <span class="date">${p.date}</span></li>`).join("")}</ul>` : ""}
       </div>

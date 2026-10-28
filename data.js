@@ -125,25 +125,26 @@ const TUTORIALS = [
 ];
 
 const EXPERIENCE = [
-  { org: "Amazon", role: "Applied Scientist Intern", place: "Seattle, WA", date: "Summers 2024 – 2025, Fall 2026",
+  { org: "Amazon", logo: "amazon.png", role: "Applied Scientist Intern", place: "Seattle, WA", date: "Summers 2024 – 2025, Fall 2026",
     projects: [
       { text: "Language-steerable LLM-based generative retrieval", date: "Sep – Dec 2026" },
       { text: "Continual learning of generative recommender systems. Mentors: Qilin Qi, Charlie Xu", date: "May – Aug 2025" },
       { text: "Leveraging temporal context for consumer propensity prediction. Mentors: Zhen Wen, Charlie Xu", date: "May – Aug 2024" },
     ] },
-  { org: "Airbnb", role: "Machine Learning Engineer Intern", place: "San Francisco, CA (remote)", date: "Jun 2026 – Aug 2026",
+  { org: "Airbnb", logo: "airbnb.png", role: "Machine Learning Engineer Intern", place: "San Francisco, CA (remote)", date: "Jun 2026 – Aug 2026",
     detail: "Evaluation framework for conversational travel agents. Mentors: Huiji Gao, Gokhan Tur, Wendy Wei." },
-  { org: "ECIT, Queen's University Belfast", role: "Research Intern", place: "Belfast, UK", date: "Sep 2018 – Dec 2018",
+  { org: "ECIT, Queen's University Belfast", logo: "qub.png", role: "Research Intern", place: "Belfast, UK", date: "Sep 2018 – Dec 2018",
     detail: "Random forest for big data. Mentor: BooJoong Kang." },
 ];
 
 const EDUCATION = [
-  { org: "University of Illinois Urbana-Champaign", role: "Ph.D. in Computer Science", date: "Aug 2022 – Dec 2026",
+  { org: "University of Illinois Urbana-Champaign", logo: "uiuc.png", role: "Ph.D. in Computer Science", date: "Aug 2022 – Dec 2026",
     detail: "Advisor: Prof. Hanghang Tong." },
-  { org: "Hanyang University", role: "M.S. in Computer Science", date: "Mar 2020 – Feb 2022",
-    detail: "Advisor: Prof. Sang-Wook Kim." },
-  { org: "Hanyang University", role: "B.S. in Computer Science & Engineering", date: "Mar 2013 – Feb 2020",
-    detail: "Summa Cum Laude. Includes 21 months of military service in the Republic of Korea Army." },
+  { org: "Hanyang University", logo: "hanyang.png", place: "Seoul, South Korea", date: "Mar 2013 – Feb 2022",
+    projects: [
+      { text: "M.S. in Computer Science. Advisor: Prof. Sang-Wook Kim", date: "Mar 2020 – Feb 2022" },
+      { text: "B.S. in Computer Science & Engineering. Summa Cum Laude; includes 21 months of military service in the Republic of Korea Army", date: "Mar 2013 – Feb 2020" },
+    ] },
 ];
 
 const HONORS = [
