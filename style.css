@@ -131,3 +131,5 @@ h3 { font-size: 16px; margin: 20px 0 8px; }
   .thumb, .thumb img { width: 100%; flex-basis: auto; }
   .row { flex-direction: column; gap: 2px; }
 }
+.projects { margin: 2px 0 0; padding-left: 18px; font-size: 14.5px; }
+.projects .date { margin-left: 6px; }

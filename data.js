@@ -125,14 +125,14 @@ const TUTORIALS = [
 ];
 
 const EXPERIENCE = [
-  { org: "Amazon", role: "Applied Scientist Intern", place: "Seattle, WA", date: "Sep 2026 – Dec 2026",
-    detail: "Language-steerable LLM-based generative retrieval." },
+  { org: "Amazon", role: "Applied Scientist Intern", place: "Seattle, WA", date: "Summers 2024 – 2025, Fall 2026",
+    projects: [
+      { text: "Language-steerable LLM-based generative retrieval", date: "Sep – Dec 2026" },
+      { text: "Continual learning of generative recommender systems. Mentors: Qilin Qi, Charlie Xu", date: "May – Aug 2025" },
+      { text: "Leveraging temporal context for consumer propensity prediction. Mentors: Zhen Wen, Charlie Xu", date: "May – Aug 2024" },
+    ] },
   { org: "Airbnb", role: "Machine Learning Engineer Intern", place: "San Francisco, CA (remote)", date: "Jun 2026 – Aug 2026",
     detail: "Evaluation framework for conversational travel agents. Mentors: Huiji Gao, Gokhan Tur, Wendy Wei." },
-  { org: "Amazon", role: "Applied Scientist Intern", place: "Seattle, WA", date: "May 2025 – Aug 2025",
-    detail: "Continual learning of generative recommender systems. Mentors: Qilin Qi, Charlie Xu." },
-  { org: "Amazon", role: "Applied Scientist Intern", place: "Seattle, WA", date: "May 2024 – Aug 2024",
-    detail: "Leveraging temporal context for consumer propensity prediction. Mentors: Zhen Wen, Charlie Xu." },
   { org: "ECIT, Queen's University Belfast", role: "Research Intern", place: "Belfast, UK", date: "Sep 2018 – Dec 2018",
     detail: "Random forest for big data. Mentor: BooJoong Kang." },
 ];
@@ -153,5 +153,4 @@ const HONORS = [
   { text: "Summa Cum Laude, Hanyang University", date: "2020" },
   { text: "Academic Excellence Award (top 3% in CS), Hanyang University", date: "2017, 2018" },
   { text: "Excellent Mentoring Team Award, Hanyang University", date: "2017" },
-  { text: "Program committee / reviewer: ICLR, NeurIPS, KDD, ARR, AAAI, WWW Companion, CIKM, DSAA, COLM LLA workshop, ACM TIST", date: "2023 –" },
 ];
