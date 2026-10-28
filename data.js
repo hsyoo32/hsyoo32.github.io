@@ -44,38 +44,38 @@ const PUBS = [
   {
     title: "SCOUT: Coupling-Free Bounds for Trillion-Scale Top-k Retrieval in Sparse Tensor Factorization",
     authors: "Jun-Gi Jang, Hyunsik Yoo, Ruizhong Qiu, Yinglong Xia, Hanghang Tong",
-    venue: "SIGMOD 2027", tags: ["Retrieval"], links: {},
+    venue: "SIGMOD 2027", tags: ["Retrieval"], links: { PDF: "https://dl.acm.org/doi/10.1145/3837123" },
   },
   {
     title: "TRACER: Balancing Stability-Plasticity-Cognitivity Trilemma for LLM Enhanced Continual Recommendation",
     authors: "WooJoo Kim, Hyunsik Yoo, Junyoung Kim, Jaehyung Lim, SeongKu Kang, Hwanjo Yu",
-    venue: "CIKM 2026", tags: ["Continual Learning", "LLM", "Recommendation"], links: {},
+    venue: "CIKM 2026", tags: ["Continual Learning", "LLM", "Recommendation"], links: { PDF: "https://arxiv.org/pdf/2608.16075" },
   },
   {
     title: "Beyond Observed Auxiliary Relations: Environment-Conditioned Modeling for Multi-Behavior Recommendation",
     authors: "Seunghan Lee, Hyunsik Yoo, Jian Kang, Susik Yoon, SeongKu Kang",
-    venue: "CIKM 2026", tags: ["Recommendation"], links: {},
+    venue: "CIKM 2026", tags: ["Recommendation"], links: { PDF: "https://arxiv.org/pdf/2608.22920" },
   },
   {
     title: "Reinforcement Routing for Mixtures of LoRAs in Parameter-Efficient LLM Finetuning",
     authors: "Ruizhong Qiu, Hanqing Zeng, Yinglong Xia, Yiwen Meng, Ren Chen, Jiarui Feng, Dongqi Fu, Qifan Wang, Jiayi Liu, Jun Xiao, Xiangjun Fan, Benyu Zhang, Hong Li, Zhining Liu, Hyunsik Yoo, Zhichen Zeng, Tianxin Wei, Hanghang Tong",
-    venue: "COLM 2026", tags: ["LLM", "Post-training"], links: {},
+    venue: "COLM 2026", tags: ["LLM", "Post-training"], links: { PDF: "https://openreview.net/pdf?id=Y089dOJOwf" },
   },
   {
     title: "Continual Low-Rank Adapters for LLM-based Generative Recommender Systems",
     authors: "Hyunsik Yoo, Ting-Wei Li, SeongKu Kang, Zhining Liu, Charlie Xu, Qilin Qi, Hanghang Tong",
     venue: "ICLR 2026", tags: ["Recommendation", "LLM", "Continual Learning", "Post-training"],
-    links: { PDF: "https://arxiv.org/pdf/2510.25093" }, thumb: "clora.png",
+    links: { PDF: "https://openreview.net/pdf?id=DBCNTM7mot", arXiv: "https://arxiv.org/abs/2510.25093", Code: "https://github.com/hsyoo32/peso" }, thumb: "clora.png",
   },
   {
     title: "Mixture of Sequence: Theme-Aware Mixture-of-Experts for Long-Sequence Recommendation",
     authors: "Xiao Lin, Zhicheng Tang, Weilin Cong, Mengyue Hang, Kai Wang, Yajuan Wang, Zhichen Zeng, Ting-Wei Li, Hyunsik Yoo, Zhining Liu, Xuying Ning, Ruizhong Qiu, Wen-Yen Chen, Shuo Chang, Rong Jin, Huayu Li, Hanghang Tong",
-    venue: "WWW 2026", tags: ["Recommendation"], links: {},
+    venue: "WWW 2026", tags: ["Recommendation"], links: { PDF: "https://arxiv.org/pdf/2604.20858" },
   },
   {
     title: "Capturing User Interests from Data Streams for Continual Sequential Recommendation",
     authors: "Gyuseok Lee, Hyunsik Yoo, Junyoung Hwang, SeongKu Kang, Hwanjo Yu",
-    venue: "WSDM 2026", tags: ["Continual Learning", "Recommendation"], links: {},
+    venue: "WSDM 2026", tags: ["Continual Learning", "Recommendation"], links: { PDF: "https://dl.acm.org/doi/10.1145/3773966.3777977" },
   },
   {
     title: "Embracing Plasticity: Balancing Stability and Plasticity in Continual Recommender Systems",
