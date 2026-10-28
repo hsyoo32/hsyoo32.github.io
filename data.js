@@ -32,16 +32,6 @@ const PUBS = [
     venue: "Under review", tags: ["Recommendation", "Benchmark"], links: {},
   },
   {
-    title: "ContextRank: Enhancing Scientific Document Retrieval with Context-Enriched Relations",
-    authors: "Wonbin Kweon, Xueqiang Xu, Runchu Tian, Chih-Hsuan Wei, ZhiZheng Wang, Hyunsik Yoo, Gyuseok Lee, SeongKu Kang, Zhiyong Lu, Jiawei Han, Hwanjo Yu",
-    venue: "Under review", tags: ["Retrieval"], links: {},
-  },
-  {
-    title: "PerCept: Personalization in Concept Space for Multimodal Recommendation",
-    authors: "Donghyuk Kang, Seunghan Lee, Dojun Hwang, Hyunsik Yoo, SeongKu Kang",
-    venue: "Under review", tags: ["Recommendation"], links: {},
-  },
-  {
     title: "SCOUT: Coupling-Free Bounds for Trillion-Scale Top-k Retrieval in Sparse Tensor Factorization",
     authors: "Jun-Gi Jang, Hyunsik Yoo, Ruizhong Qiu, Yinglong Xia, Hanghang Tong",
     venue: "SIGMOD 2027", tags: ["Retrieval"], links: { PDF: "https://dl.acm.org/doi/10.1145/3837123" },
