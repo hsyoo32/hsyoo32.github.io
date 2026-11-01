@@ -87,5 +87,5 @@ renderPubs("All");
 $("tut-list").innerHTML = TUTORIALS.map((t) => entryHtml({ ...t, tags: [] })).join("");
 $("exp-list").innerHTML = EXPERIENCE.map(rowHtml).join("");
 $("edu-list").innerHTML = EDUCATION.map(rowHtml).join("");
-$("honor-list").innerHTML = HONORS.map((h) => `<li>${h.url ? `<a href="${h.url}">${h.text}</a>` : h.text} <span class="date">${h.date}</span></li>`).join("");
+$("honor-list").innerHTML = HONORS.map((h) => `<li>${h.url ? h.text.replace(h.linkText, `<a href="${h.url}">${h.linkText}</a>`) : h.text} <span class="date">${h.date}</span></li>`).join("");
 $("updated").textContent = UPDATED;

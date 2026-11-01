@@ -158,7 +158,8 @@ const EDUCATION = [
 
 const HONORS = [
   { text: "Top Reviewer, NeurIPS 2026", date: "2026" },
-  { text: "Excellent Reviewer, KDD 2025 Research Track", date: "2025", url: "https://kdd.org/kdd2025/research-track-program-committee/" },
+  { text: "Excellent Reviewer, KDD 2025 Research Track", date: "2025",
+    url: "https://kdd.org/kdd2025/research-track-program-committee/", linkText: "Excellent Reviewer" },
   { text: "NSF Student Travel Award, KDD 2025 and SIGIR 2025", date: "2025" },
   { text: "Summa Cum Laude, Hanyang University", date: "2020" },
   { text: "Academic Excellence Award (top 3% in CS), Hanyang University", date: "2017, 2018" },
