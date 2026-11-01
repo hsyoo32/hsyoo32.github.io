@@ -152,7 +152,7 @@ const EDUCATION = [
   { org: "Hanyang University", logo: "hanyang.png", place: "Seoul, South Korea", date: "Mar 2013 – Feb 2022",
     projects: [
       { text: "M.S. in Computer Science. Advisor: Prof. Sang-Wook Kim", date: "Mar 2020 – Feb 2022" },
-      { text: "B.S. in Computer Science & Engineering. Summa Cum Laude; includes 21 months of military service in the Republic of Korea Army", date: "Mar 2013 – Feb 2020" },
+      { text: "B.S. in Computer Science & Engineering. Summa Cum Laude. Period includes 21 months of military service in the Republic of Korea Army", date: "Mar 2013 – Feb 2020" },
     ] },
 ];
 
