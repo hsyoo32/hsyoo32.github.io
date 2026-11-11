@@ -163,3 +163,11 @@ h1 .hanja { font-family: "Yuji Syuku", serif; color: var(--text); font-size: 0.9
 @media (max-width: 720px) {
   .hero-side { width: auto; text-align: left; }
 }
+.favorites { margin-top: 10px; }
+.fav-title { font-size: 13px; font-style: italic; color: var(--muted); margin-bottom: 4px; }
+.favorites ul { list-style: none; padding: 0; margin: 0; }
+.favorites li { display: flex; align-items: center; gap: 8px; padding: 2px 0; font-size: 14.5px; }
+.favorites svg {
+  width: 16px; height: 16px; flex-shrink: 0;
+  fill: none; stroke: var(--muted); stroke-width: 1.6; stroke-linecap: round; stroke-linejoin: round;
+}
